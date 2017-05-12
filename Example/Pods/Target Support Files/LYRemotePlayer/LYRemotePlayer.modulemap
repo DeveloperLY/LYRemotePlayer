@@ -1,0 +1,6 @@
+framework module LYRemotePlayer {
+  umbrella header "LYRemotePlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

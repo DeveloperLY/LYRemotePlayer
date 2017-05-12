@@ -1,0 +1,16 @@
+PODS:
+  - LYRemotePlayer (0.1.0)
+
+DEPENDENCIES:
+  - LYRemotePlayer (from `../`)
+
+EXTERNAL SOURCES:
+  LYRemotePlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYRemotePlayer: b438a960ee347956d4548df59f1638ce5a156e8d
+
+PODFILE CHECKSUM: ef2e5702eb7e58a83d2e6754cc598639b32c9fce
+
+COCOAPODS: 1.2.1

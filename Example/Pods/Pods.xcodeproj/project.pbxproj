@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074B35C10A7E893C935E56C1A90D8D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		149D7BE8C7FA92AE05BF77F5709758CF /* Pods-LYRemotePlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F11652B083E694FDA875E673F0D714B2 /* Pods-LYRemotePlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		419E068E646BE89C28F60156FB023896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5F0A28C36AE667AF1D2A3E8F4EF258B4 /* Pods-LYRemotePlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3333DC6E01B15B75F49FB9DBB1F73D60 /* Pods-LYRemotePlayer_Tests-dummy.m */; };
+		9B77534C90FC7A971FC0B7894D211E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A6C3DEDFB50CA905488B3F481A1A9A92 /* Pods-LYRemotePlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBE4D1C727C28C8E27E791F7611F186 /* Pods-LYRemotePlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E57FF5559EFB9E392CE33FB2A7F6A771 /* LYRemotePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BFD317431736D46E7158775AFCA515 /* LYRemotePlayer-dummy.m */; };
+		EEBCE5AF9979298513B150E2D3F8CFDD /* Pods-LYRemotePlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F695039DE16FE9BDE53B5F98A1FC4FBE /* Pods-LYRemotePlayer_Example-dummy.m */; };
+		F132493C673AE69CED9BA00BC50ADC63 /* LYRemotePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE935AFDCA95B5659249E0EFDE55C902 /* LYRemotePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4661C2C711A30B0AA53F7B5F88EB520 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EC938D1129647565398E8A34C93080 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F18FE7161643C8BB5129EBF32E3E8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7A76FC65CD4E82200DFCA9F6615A719;
+			remoteInfo = LYRemotePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01227CCE4D0CA748F3286CDF01165A08 /* Pods-LYRemotePlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYRemotePlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B56D93A95262F5AF88B2E81CA64A6E9 /* Pods-LYRemotePlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LYRemotePlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		3333DC6E01B15B75F49FB9DBB1F73D60 /* Pods-LYRemotePlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYRemotePlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		33C4782ABF6A2D7D59ECD7305EC40A55 /* Pods-LYRemotePlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYRemotePlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3E15FEA72338C2A15CDF5884B70049DE /* Pods-LYRemotePlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYRemotePlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E410DD205CB11814B973A6AAE01C37C /* Pods-LYRemotePlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYRemotePlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		59061287C5CD11E64CA8CD1BE02CD9AC /* Pods-LYRemotePlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYRemotePlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71BFD317431736D46E7158775AFCA515 /* LYRemotePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYRemotePlayer-dummy.m"; sourceTree = "<group>"; };
+		75878CD0D51857E9681C0C5271E60923 /* Pods-LYRemotePlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYRemotePlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C04930C90E87F3A46FF4F7A0A6B5987 /* Pods-LYRemotePlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYRemotePlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		865A4DDDA0AE8C9497DBFFEA8E931857 /* Pods-LYRemotePlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYRemotePlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CBE4D1C727C28C8E27E791F7611F186 /* Pods-LYRemotePlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYRemotePlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		92EC02EA88C2D4044131665ED411EBA3 /* Pods_LYRemotePlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYRemotePlayer_Tests.framework; path = "Pods-LYRemotePlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1EC938D1129647565398E8A34C93080 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		A6301C064904FF45A0FACC8A94BE8946 /* Pods-LYRemotePlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYRemotePlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		AE18CAF8B2F3FF1F2049FB559327833E /* LYRemotePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYRemotePlayer.framework; path = LYRemotePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E415F1021ECD39E27DF5C0DFEB2C8F /* Pods-LYRemotePlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYRemotePlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		B8709C4411DE40B125201E2C5A46ED8C /* Pods_LYRemotePlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYRemotePlayer_Example.framework; path = "Pods-LYRemotePlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2B9C4688F0F136CFF2AA1B088538FE /* LYRemotePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYRemotePlayer.xcconfig; sourceTree = "<group>"; };
+		C31915EA77DAE14FDDEE2743FB21861C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61499F10F5BDB7CD70F4D140397A1F5 /* Pods-LYRemotePlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYRemotePlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD60401A177DBF59CF89A832A1780AF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC32E396870C847DD31FA0AD9611D47 /* Pods-LYRemotePlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYRemotePlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D7F57E5A97BFCE4835254AB70EE921C1 /* Pods-LYRemotePlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LYRemotePlayer_Example.modulemap"; sourceTree = "<group>"; };
+		DB05B3F15A95522A0E1A47FDA2A7DC72 /* LYRemotePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LYRemotePlayer.modulemap; sourceTree = "<group>"; };
+		EE935AFDCA95B5659249E0EFDE55C902 /* LYRemotePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYRemotePlayer-umbrella.h"; sourceTree = "<group>"; };
+		F11652B083E694FDA875E673F0D714B2 /* Pods-LYRemotePlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYRemotePlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		F28952E3615B632A0EF49B07ECA8CAFC /* LYRemotePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYRemotePlayer-prefix.pch"; sourceTree = "<group>"; };
+		F695039DE16FE9BDE53B5F98A1FC4FBE /* Pods-LYRemotePlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYRemotePlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		FB8564D19551E48A3EA89E3C263124C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF84F64A25575FC8B48FC5266AB85A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419E068E646BE89C28F60156FB023896 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598EE3DFAAD3E817669F52C7AD87CE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074B35C10A7E893C935E56C1A90D8D96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C08008317AE4A529B29C3179FC8F4BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B77534C90FC7A971FC0B7894D211E7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A0E31B5C8658822C4A2B31D59A95D3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6CF68B5C0BB99CD2BA02C447BF4420C /* LYRemotePlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		619CEF33BA821C90A4CCD79217B0E140 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1EC938D1129647565398E8A34C93080 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		735914E66ED0E8CDB427F433212990A9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E97B77B1B04AE098D7DB6B46DC263A7F /* Pods-LYRemotePlayer_Example */,
+				97008A3D71287D3A250B9B460DD69D11 /* Pods-LYRemotePlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				02A0E31B5C8658822C4A2B31D59A95D3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C81E1DE869AB571F0DDB3D9F3B2B9CF5 /* Products */,
+				735914E66ED0E8CDB427F433212990A9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		839B4FA8C7F82DF445CDA89945AD2236 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD60401A177DBF59CF89A832A1780AF5 /* Info.plist */,
+				DB05B3F15A95522A0E1A47FDA2A7DC72 /* LYRemotePlayer.modulemap */,
+				BC2B9C4688F0F136CFF2AA1B088538FE /* LYRemotePlayer.xcconfig */,
+				71BFD317431736D46E7158775AFCA515 /* LYRemotePlayer-dummy.m */,
+				F28952E3615B632A0EF49B07ECA8CAFC /* LYRemotePlayer-prefix.pch */,
+				EE935AFDCA95B5659249E0EFDE55C902 /* LYRemotePlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LYRemotePlayer";
+			sourceTree = "<group>";
+		};
+		97008A3D71287D3A250B9B460DD69D11 /* Pods-LYRemotePlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C31915EA77DAE14FDDEE2743FB21861C /* Info.plist */,
+				2B56D93A95262F5AF88B2E81CA64A6E9 /* Pods-LYRemotePlayer_Tests.modulemap */,
+				865A4DDDA0AE8C9497DBFFEA8E931857 /* Pods-LYRemotePlayer_Tests-acknowledgements.markdown */,
+				C61499F10F5BDB7CD70F4D140397A1F5 /* Pods-LYRemotePlayer_Tests-acknowledgements.plist */,
+				3333DC6E01B15B75F49FB9DBB1F73D60 /* Pods-LYRemotePlayer_Tests-dummy.m */,
+				59061287C5CD11E64CA8CD1BE02CD9AC /* Pods-LYRemotePlayer_Tests-frameworks.sh */,
+				A6301C064904FF45A0FACC8A94BE8946 /* Pods-LYRemotePlayer_Tests-resources.sh */,
+				8CBE4D1C727C28C8E27E791F7611F186 /* Pods-LYRemotePlayer_Tests-umbrella.h */,
+				75878CD0D51857E9681C0C5271E60923 /* Pods-LYRemotePlayer_Tests.debug.xcconfig */,
+				33C4782ABF6A2D7D59ECD7305EC40A55 /* Pods-LYRemotePlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-LYRemotePlayer_Tests";
+			path = "Target Support Files/Pods-LYRemotePlayer_Tests";
+			sourceTree = "<group>";
+		};
+		B6CF68B5C0BB99CD2BA02C447BF4420C /* LYRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FD06D63ED2B52EE4D88DDC89113FC358 /* LYRemotePlayer */,
+				839B4FA8C7F82DF445CDA89945AD2236 /* Support Files */,
+			);
+			name = LYRemotePlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C81E1DE869AB571F0DDB3D9F3B2B9CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE18CAF8B2F3FF1F2049FB559327833E /* LYRemotePlayer.framework */,
+				B8709C4411DE40B125201E2C5A46ED8C /* Pods_LYRemotePlayer_Example.framework */,
+				92EC02EA88C2D4044131665ED411EBA3 /* Pods_LYRemotePlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E97B77B1B04AE098D7DB6B46DC263A7F /* Pods-LYRemotePlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FB8564D19551E48A3EA89E3C263124C2 /* Info.plist */,
+				D7F57E5A97BFCE4835254AB70EE921C1 /* Pods-LYRemotePlayer_Example.modulemap */,
+				01227CCE4D0CA748F3286CDF01165A08 /* Pods-LYRemotePlayer_Example-acknowledgements.markdown */,
+				3E15FEA72338C2A15CDF5884B70049DE /* Pods-LYRemotePlayer_Example-acknowledgements.plist */,
+				F695039DE16FE9BDE53B5F98A1FC4FBE /* Pods-LYRemotePlayer_Example-dummy.m */,
+				CFC32E396870C847DD31FA0AD9611D47 /* Pods-LYRemotePlayer_Example-frameworks.sh */,
+				B4E415F1021ECD39E27DF5C0DFEB2C8F /* Pods-LYRemotePlayer_Example-resources.sh */,
+				F11652B083E694FDA875E673F0D714B2 /* Pods-LYRemotePlayer_Example-umbrella.h */,
+				4E410DD205CB11814B973A6AAE01C37C /* Pods-LYRemotePlayer_Example.debug.xcconfig */,
+				7C04930C90E87F3A46FF4F7A0A6B5987 /* Pods-LYRemotePlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-LYRemotePlayer_Example";
+			path = "Target Support Files/Pods-LYRemotePlayer_Example";
+			sourceTree = "<group>";
+		};
+		FD06D63ED2B52EE4D88DDC89113FC358 /* LYRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				619CEF33BA821C90A4CCD79217B0E140 /* Classes */,
+			);
+			name = LYRemotePlayer;
+			path = LYRemotePlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B2590A9FBB694DCEE99DA9A4D1E6879 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F132493C673AE69CED9BA00BC50ADC63 /* LYRemotePlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5163FC2EB6F12C5043093429EF4A80C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C3DEDFB50CA905488B3F481A1A9A92 /* Pods-LYRemotePlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65BB66CC9017582E192C67C5DC1F0D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149D7BE8C7FA92AE05BF77F5709758CF /* Pods-LYRemotePlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8CB66E2D008DFEB68F88695E63B663A1 /* Pods-LYRemotePlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48928896981C82C81C54AAA6AE14F34F /* Build configuration list for PBXNativeTarget "Pods-LYRemotePlayer_Example" */;
+			buildPhases = (
+				01EC5891854766565C1AFBF9EEABC7A0 /* Sources */,
+				C08008317AE4A529B29C3179FC8F4BBC /* Frameworks */,
+				E65BB66CC9017582E192C67C5DC1F0D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD4B8CACF016851133934269BBC95A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LYRemotePlayer_Example";
+			productName = "Pods-LYRemotePlayer_Example";
+			productReference = B8709C4411DE40B125201E2C5A46ED8C /* Pods_LYRemotePlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA3CC652F39EBCE759C011454F99EBBE /* Pods-LYRemotePlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E5834B812681ABEE730E12C4838127 /* Build configuration list for PBXNativeTarget "Pods-LYRemotePlayer_Tests" */;
+			buildPhases = (
+				8DD6FF739BDBE1262798729F1224E67D /* Sources */,
+				598EE3DFAAD3E817669F52C7AD87CE65 /* Frameworks */,
+				A5163FC2EB6F12C5043093429EF4A80C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LYRemotePlayer_Tests";
+			productName = "Pods-LYRemotePlayer_Tests";
+			productReference = 92EC02EA88C2D4044131665ED411EBA3 /* Pods_LYRemotePlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7A76FC65CD4E82200DFCA9F6615A719 /* LYRemotePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038F7CADB062ADE88AE62A7B13855BBF /* Build configuration list for PBXNativeTarget "LYRemotePlayer" */;
+			buildPhases = (
+				FFF999841C51C0519A37DFF59DEA43F0 /* Sources */,
+				2AF84F64A25575FC8B48FC5266AB85A2 /* Frameworks */,
+				0B2590A9FBB694DCEE99DA9A4D1E6879 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYRemotePlayer;
+			productName = LYRemotePlayer;
+			productReference = AE18CAF8B2F3FF1F2049FB559327833E /* LYRemotePlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C81E1DE869AB571F0DDB3D9F3B2B9CF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A76FC65CD4E82200DFCA9F6615A719 /* LYRemotePlayer */,
+				8CB66E2D008DFEB68F88695E63B663A1 /* Pods-LYRemotePlayer_Example */,
+				BA3CC652F39EBCE759C011454F99EBBE /* Pods-LYRemotePlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01EC5891854766565C1AFBF9EEABC7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBCE5AF9979298513B150E2D3F8CFDD /* Pods-LYRemotePlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD6FF739BDBE1262798729F1224E67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0A28C36AE667AF1D2A3E8F4EF258B4 /* Pods-LYRemotePlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF999841C51C0519A37DFF59DEA43F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57FF5559EFB9E392CE33FB2A7F6A771 /* LYRemotePlayer-dummy.m in Sources */,
+				F4661C2C711A30B0AA53F7B5F88EB520 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD4B8CACF016851133934269BBC95A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LYRemotePlayer;
+			target = C7A76FC65CD4E82200DFCA9F6615A719 /* LYRemotePlayer */;
+			targetProxy = 1F18FE7161643C8BB5129EBF32E3E8F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		183EFE668C394BCD2A65DD6187471E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C04930C90E87F3A46FF4F7A0A6B5987 /* Pods-LYRemotePlayer_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LYRemotePlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYRemotePlayer_Example/Pods-LYRemotePlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LYRemotePlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BB86A2E1A07D6D39DB380C2FABAC49E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E410DD205CB11814B973A6AAE01C37C /* Pods-LYRemotePlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LYRemotePlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYRemotePlayer_Example/Pods-LYRemotePlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LYRemotePlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3D9FF4EBA8160D354FB8BA4D081A7B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2B9C4688F0F136CFF2AA1B088538FE /* LYRemotePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LYRemotePlayer/LYRemotePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYRemotePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYRemotePlayer/LYRemotePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LYRemotePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44A39316736232EB4E24D65470190FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75878CD0D51857E9681C0C5271E60923 /* Pods-LYRemotePlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LYRemotePlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYRemotePlayer_Tests/Pods-LYRemotePlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LYRemotePlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C3DA2222822BD7B35C6179AB3258219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C4782ABF6A2D7D59ECD7305EC40A55 /* Pods-LYRemotePlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LYRemotePlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYRemotePlayer_Tests/Pods-LYRemotePlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LYRemotePlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		684743C7600FF9C8A0D0EB1DD22EBF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2B9C4688F0F136CFF2AA1B088538FE /* LYRemotePlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LYRemotePlayer/LYRemotePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYRemotePlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYRemotePlayer/LYRemotePlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LYRemotePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038F7CADB062ADE88AE62A7B13855BBF /* Build configuration list for PBXNativeTarget "LYRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9FF4EBA8160D354FB8BA4D081A7B2F /* Debug */,
+				684743C7600FF9C8A0D0EB1DD22EBF9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E5834B812681ABEE730E12C4838127 /* Build configuration list for PBXNativeTarget "Pods-LYRemotePlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A39316736232EB4E24D65470190FA0 /* Debug */,
+				5C3DA2222822BD7B35C6179AB3258219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48928896981C82C81C54AAA6AE14F34F /* Build configuration list for PBXNativeTarget "Pods-LYRemotePlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB86A2E1A07D6D39DB380C2FABAC49E /* Debug */,
+				183EFE668C394BCD2A65DD6187471E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
