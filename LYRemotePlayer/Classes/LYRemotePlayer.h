@@ -14,5 +14,20 @@
 
 - (void)playWithURL:(NSURL *)url;
 
+- (void)pause;
+
+- (void)resume;
+
+- (void)stop;
+
+- (void)seekWithTimeDiffer:(NSTimeInterval)timeDiffer;
+
+- (void)seekWithProgress:(CGFloat)progress;
+
+- (void)setRate:(CGFloat)rate;
+
+- (void)setMuted:(BOOL)muted;
+
+- (void)setVolume:(CGFloat)volume;
 
 @end
