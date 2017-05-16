@@ -38,6 +38,12 @@ static LYRemotePlayer *_shareInstance;
 
 #pragma mark - Public Method
 - (void)playWithURL:(NSURL *)url {
+    NSURL *currentURL = ((AVURLAsset *) self.player.currentItem.asset).URL;
+    if ([url isEqual:currentURL]) {
+        [self resume];
+        return;
+    }
+    
     // 资源的请求
     AVURLAsset *asset = [AVURLAsset assetWithURL:url];
     
