@@ -17,20 +17,38 @@
 
 @property (weak, nonatomic) IBOutlet UISlider *ProgressView;
 
+@property (weak, nonatomic) IBOutlet UIProgressView *playProgressView;
+
+@property (nonatomic, weak) NSTimer *timer;
+
+@property (weak, nonatomic) IBOutlet UIButton *mutedButton;
+
 @end
 
 @implementation LYViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[self timer];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)update {
+    NSLog(@"%zd", [LYRemotePlayer shareInstance].state);
+    self.playTimeLabel.text =  [LYRemotePlayer shareInstance].currentTimeFormat;
+    self.totalTimeLabel.text = [LYRemotePlayer shareInstance].totalTimeFormat;
+    
+    self.ProgressView.value = [LYRemotePlayer shareInstance].progress;
+    
+    self.playProgressView.progress = [LYRemotePlayer shareInstance].loadDataProgress;
+    
+    self.mutedButton.selected = [LYRemotePlayer shareInstance].muted;
+    
+    
 }
 
 - (IBAction)play:(UIButton *)sender {
@@ -69,6 +87,16 @@
 
 - (IBAction)progress:(UISlider *)sender {
     [[LYRemotePlayer shareInstance] setVolume:sender.value];
+}
+
+
+- (NSTimer *)timer {
+    if (!_timer) {
+        NSTimer *timer = [NSTimer timerWithTimeInterval:1 target:self selector:@selector(update) userInfo:nil repeats:YES];
+        [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
+        _timer = timer;
+    }
+    return _timer;
 }
 
 @end

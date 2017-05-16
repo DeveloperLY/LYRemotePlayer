@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -90,6 +90,9 @@
                                     <action selector="progress:" destination="whP-gf-Uak" eventType="valueChanged" id="rfY-rX-wkP"/>
                                 </connections>
                             </slider>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="p7B-fu-2JO">
+                                <rect key="frame" x="50" y="605" width="275" height="2"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -99,6 +102,8 @@
                             <constraint firstItem="V2t-o4-pv2" firstAttribute="leading" secondItem="KMe-br-Mdi" secondAttribute="trailing" constant="5" id="8zx-8h-WP6"/>
                             <constraint firstItem="KMe-br-Mdi" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="50" id="9xD-1t-AtG"/>
                             <constraint firstItem="n94-R7-v0i" firstAttribute="top" secondItem="KMe-br-Mdi" secondAttribute="bottom" constant="30" id="C3q-lC-DeV"/>
+                            <constraint firstAttribute="trailing" secondItem="p7B-fu-2JO" secondAttribute="trailing" constant="50" id="Cs1-rM-SFQ"/>
+                            <constraint firstItem="p7B-fu-2JO" firstAttribute="top" secondItem="TKf-lq-7rO" secondAttribute="bottom" constant="30" id="DQP-pv-ptV"/>
                             <constraint firstItem="2dC-pg-Mmq" firstAttribute="top" secondItem="V3N-jy-4yy" secondAttribute="bottom" constant="30" id="Ere-8o-zvW"/>
                             <constraint firstItem="KMe-br-Mdi" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="GMk-92-pP3"/>
                             <constraint firstItem="LtH-Bg-2TR" firstAttribute="top" secondItem="ck0-L6-p6O" secondAttribute="bottom" constant="30" id="Jje-49-orb"/>
@@ -112,6 +117,7 @@
                             <constraint firstItem="V3N-jy-4yy" firstAttribute="top" secondItem="n94-R7-v0i" secondAttribute="bottom" constant="30" id="bmo-qW-PxI"/>
                             <constraint firstItem="TKf-lq-7rO" firstAttribute="trailing" secondItem="KMe-br-Mdi" secondAttribute="trailing" id="fQK-mw-bKV"/>
                             <constraint firstItem="KMe-br-Mdi" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="foF-f5-hn3"/>
+                            <constraint firstItem="p7B-fu-2JO" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="50" id="gYe-MK-Yf9"/>
                             <constraint firstItem="2dC-pg-Mmq" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="iz6-Mo-zcO"/>
                             <constraint firstItem="TKf-lq-7rO" firstAttribute="leading" secondItem="KMe-br-Mdi" secondAttribute="leading" id="r3S-Nh-igq"/>
                             <constraint firstItem="ck0-L6-p6O" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="sjp-fy-dXG"/>
@@ -121,13 +127,15 @@
                     </view>
                     <connections>
                         <outlet property="ProgressView" destination="KMe-br-Mdi" id="ZoF-Bf-MWC"/>
+                        <outlet property="mutedButton" destination="LtH-Bg-2TR" id="6rg-d9-tv4"/>
+                        <outlet property="playProgressView" destination="p7B-fu-2JO" id="nk7-QJ-7Po"/>
                         <outlet property="playTimeLabel" destination="P0K-dc-Nj2" id="gfa-2U-Xi9"/>
                         <outlet property="totalTimeLabel" destination="V2t-o4-pv2" id="6ts-aq-deU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-294" y="436"/>
+            <point key="canvasLocation" x="-295.19999999999999" y="435.83208395802103"/>
         </scene>
     </scenes>
 </document>
