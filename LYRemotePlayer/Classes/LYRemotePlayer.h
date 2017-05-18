@@ -54,10 +54,4 @@ typedef NS_ENUM(NSUInteger, LYRemotePlayerState) {
 
 - (void)seekWithProgress:(CGFloat)progress;
 
-- (void)setRate:(CGFloat)rate;
-
-- (void)setMuted:(BOOL)muted;
-
-- (void)setVolume:(CGFloat)volume;
-
 @end
