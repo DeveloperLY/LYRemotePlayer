@@ -8,6 +8,7 @@
 
 #import "LYRemotePlayer.h"
 #import <AVFoundation/AVFoundation.h>
+#import "NSURL+LYAdd.h"
 
 @interface LYRemotePlayer ()
 
@@ -42,7 +43,7 @@ static LYRemotePlayer *_shareInstance;
 #pragma mark - Public Method
 - (void)playWithURL:(NSURL *)url {
     NSURL *currentURL = ((AVURLAsset *) self.player.currentItem.asset).URL;
-    if ([url isEqual:currentURL]) {
+    if ([url isEqual:currentURL] || [[url streamingURL] isEqual:currentURL]) {
         [self resume];
         return;
     }
@@ -83,6 +84,7 @@ static LYRemotePlayer *_shareInstance;
     [self.player play];
     self.userPause = NO;
     
+    // 当前存在播放器且数据组织者已经准备好资源数据
     if (self.player && self.player.currentItem.isPlaybackLikelyToKeepUp) {
         _state = LYRemotePlayerStatePlaying;
     }
@@ -128,6 +130,7 @@ static LYRemotePlayer *_shareInstance;
 }
 
 
+#pragma mark - Setter
 - (void)setRate:(CGFloat)rate {
     [self.player setRate:rate];
 }
@@ -150,10 +153,12 @@ static LYRemotePlayer *_shareInstance;
 - (void)removeObserver {
     [self.player.currentItem removeObserver:self forKeyPath:@"status"];
     [self.player.currentItem removeObserver:self forKeyPath:@"playbackLikelyToKeepUp"];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 - (void)playEnd {
     NSLog(@"播放结束...");
+    _state = LYRemotePlayerStateStopped;
 }
 
 - (void)playInterupt {
@@ -240,5 +245,36 @@ static LYRemotePlayer *_shareInstance;
     
     return loadTimeSec / self.totalTime;
 }
+
+
+/**
+ 获取速率
+
+ @return 速率
+ */
+- (CGFloat)rate {
+    return self.player.rate;
+}
+
+
+/**
+ 是否静音
+
+ @return 是否静音
+ */
+- (BOOL)muted {
+    return self.player.muted;
+}
+
+
+/**
+ 当前声音大小
+
+ @return 声音大小
+ */
+- (CGFloat)volume {
+    return self.player.volume;
+}
+
 
 @end

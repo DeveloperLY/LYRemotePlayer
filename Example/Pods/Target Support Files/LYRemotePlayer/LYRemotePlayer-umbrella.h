@@ -11,6 +11,7 @@
 #endif
 
 #import "LYRemotePlayer.h"
+#import "NSURL+LYAdd.h"
 
 FOUNDATION_EXPORT double LYRemotePlayerVersionNumber;
 FOUNDATION_EXPORT const unsigned char LYRemotePlayerVersionString[];
