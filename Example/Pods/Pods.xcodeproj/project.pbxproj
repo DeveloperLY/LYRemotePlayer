@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		074B35C10A7E893C935E56C1A90D8D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0D53BF8F0A2F7EF865ADC83634D89A1E /* LYCacheFileTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 68339EF82D1C4FE75ABDBB4421861427 /* LYCacheFileTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		149D7BE8C7FA92AE05BF77F5709758CF /* Pods-LYRemotePlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F11652B083E694FDA875E673F0D714B2 /* Pods-LYRemotePlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FA0C5E8E278AE161A1CADABCB27320F /* LYRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC664883A9EEA42A264EF66A6C58B71 /* LYRemotePlayer.m */; };
-		2FE54E9FE569E7D0D697F580AD846FAD /* LYRemotePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE935AFDCA95B5659249E0EFDE55C902 /* LYRemotePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17ED508EE88013802CB39F3A8009408E /* LYRemotePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = D61673D2496B7491244421DF282BCE37 /* LYRemotePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30BFDA9774FF528CE2C1417399218BFE /* NSURL+LYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A43B3769E0D906852DF960D1B7B987A5 /* NSURL+LYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45535A6EFBE6B64F90D64A40262F001C /* LYRemoteResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C80015FF86606FDCF5A08976C4E66284 /* LYRemoteResourceLoaderDelegate.m */; };
+		4723C7848B1E444458272BCD9FD1D1CF /* LYRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 939EDA333B348A05C9004650E437D15F /* LYRemotePlayer.m */; };
+		5670AB185C1FE52D434002EC22152F02 /* LYDownLoaderTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAFD1F38D78F725872CDC51C7D0A5E /* LYDownLoaderTools.m */; };
 		5F0A28C36AE667AF1D2A3E8F4EF258B4 /* Pods-LYRemotePlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3333DC6E01B15B75F49FB9DBB1F73D60 /* Pods-LYRemotePlayer_Tests-dummy.m */; };
+		70E8A3E7ED111FE106E87FD04E5EDE5A /* LYDownLoaderTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C225F93C2363ABED7E18F48620D1C16 /* LYDownLoaderTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AFE0ECBF02F15F7B9108F73FF7A9CCC /* LYRemotePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE935AFDCA95B5659249E0EFDE55C902 /* LYRemotePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DABEA8235DD9D0633A26C5B15B666F9 /* LYRemoteResourceLoaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B7B029B884D0F4F99429378A4D86F7 /* LYRemoteResourceLoaderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901C5CA3FBDB9A3C29AEAC0F04FDEB6B /* LYCacheFileTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D89ABC895B87082ED43D4CE085897A8 /* LYCacheFileTools.m */; };
 		9B77534C90FC7A971FC0B7894D211E7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9F41B8E70698CE9C39832C26A1530C35 /* NSURL+LYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5557DEFB7FED7E9588D091965ACA30 /* NSURL+LYAdd.m */; };
 		A6C3DEDFB50CA905488B3F481A1A9A92 /* Pods-LYRemotePlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBE4D1C727C28C8E27E791F7611F186 /* Pods-LYRemotePlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6334214FF812A054FD6E322977D030F /* LYRemotePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BFD317431736D46E7158775AFCA515 /* LYRemotePlayer-dummy.m */; };
-		B86E6B0752329000FF5305312BD4B4E7 /* LYRemotePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8976D012CFC7DADD26DA706A52F63C0B /* LYRemotePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9B1C85643F697BFBB37815FDED1339E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D40BFAC2D40DFA3D20AB653A7C4DDAD7 /* NSURL+LYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C715F813781CDD51B22BAE6D65C9342A /* NSURL+LYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D87286BE6AFBE44B59F3E3EDF84ACBA1 /* NSURL+LYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A5D627476C3F29BE74FF4B29A71237 /* NSURL+LYAdd.m */; };
+		D0F09B1289773863CB52154FCF7E34DC /* LYRemotePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BFD317431736D46E7158775AFCA515 /* LYRemotePlayer-dummy.m */; };
+		D99FEFBA432BCF0F65D38BE68DE910A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EEBCE5AF9979298513B150E2D3F8CFDD /* Pods-LYRemotePlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F695039DE16FE9BDE53B5F98A1FC4FBE /* Pods-LYRemotePlayer_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +33,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0803244CFBE3D2C12C6CCBBDABB3CBAF;
+			remoteGlobalIDString = 86C947F08AEA4FBEDD0BA6713BC055FE;
 			remoteInfo = LYRemotePlayer;
 		};
 /* End PBXContainerItemProxy section */
@@ -38,19 +44,23 @@
 		3333DC6E01B15B75F49FB9DBB1F73D60 /* Pods-LYRemotePlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYRemotePlayer_Tests-dummy.m"; sourceTree = "<group>"; };
 		33C4782ABF6A2D7D59ECD7305EC40A55 /* Pods-LYRemotePlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYRemotePlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E15FEA72338C2A15CDF5884B70049DE /* Pods-LYRemotePlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYRemotePlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		40A5D627476C3F29BE74FF4B29A71237 /* NSURL+LYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LYAdd.m"; sourceTree = "<group>"; };
+		4C225F93C2363ABED7E18F48620D1C16 /* LYDownLoaderTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYDownLoaderTools.h; sourceTree = "<group>"; };
 		4E410DD205CB11814B973A6AAE01C37C /* Pods-LYRemotePlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYRemotePlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		53B7B029B884D0F4F99429378A4D86F7 /* LYRemoteResourceLoaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYRemoteResourceLoaderDelegate.h; sourceTree = "<group>"; };
 		59061287C5CD11E64CA8CD1BE02CD9AC /* Pods-LYRemotePlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYRemotePlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68339EF82D1C4FE75ABDBB4421861427 /* LYCacheFileTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYCacheFileTools.h; sourceTree = "<group>"; };
 		71BFD317431736D46E7158775AFCA515 /* LYRemotePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYRemotePlayer-dummy.m"; sourceTree = "<group>"; };
 		75878CD0D51857E9681C0C5271E60923 /* Pods-LYRemotePlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYRemotePlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C04930C90E87F3A46FF4F7A0A6B5987 /* Pods-LYRemotePlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYRemotePlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7D89ABC895B87082ED43D4CE085897A8 /* LYCacheFileTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYCacheFileTools.m; sourceTree = "<group>"; };
 		865A4DDDA0AE8C9497DBFFEA8E931857 /* Pods-LYRemotePlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYRemotePlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8976D012CFC7DADD26DA706A52F63C0B /* LYRemotePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYRemotePlayer.h; sourceTree = "<group>"; };
 		8CBE4D1C727C28C8E27E791F7611F186 /* Pods-LYRemotePlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYRemotePlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8EDAFD1F38D78F725872CDC51C7D0A5E /* LYDownLoaderTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYDownLoaderTools.m; sourceTree = "<group>"; };
 		92EC02EA88C2D4044131665ED411EBA3 /* Pods_LYRemotePlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYRemotePlayer_Tests.framework; path = "Pods-LYRemotePlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		939EDA333B348A05C9004650E437D15F /* LYRemotePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYRemotePlayer.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AC664883A9EEA42A264EF66A6C58B71 /* LYRemotePlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYRemotePlayer.m; sourceTree = "<group>"; };
+		A43B3769E0D906852DF960D1B7B987A5 /* NSURL+LYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+LYAdd.h"; sourceTree = "<group>"; };
 		A6301C064904FF45A0FACC8A94BE8946 /* Pods-LYRemotePlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYRemotePlayer_Tests-resources.sh"; sourceTree = "<group>"; };
 		AE18CAF8B2F3FF1F2049FB559327833E /* LYRemotePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYRemotePlayer.framework; path = LYRemotePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E415F1021ECD39E27DF5C0DFEB2C8F /* Pods-LYRemotePlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYRemotePlayer_Example-resources.sh"; sourceTree = "<group>"; };
@@ -58,9 +68,11 @@
 		BC2B9C4688F0F136CFF2AA1B088538FE /* LYRemotePlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYRemotePlayer.xcconfig; sourceTree = "<group>"; };
 		C31915EA77DAE14FDDEE2743FB21861C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C61499F10F5BDB7CD70F4D140397A1F5 /* Pods-LYRemotePlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYRemotePlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C715F813781CDD51B22BAE6D65C9342A /* NSURL+LYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+LYAdd.h"; sourceTree = "<group>"; };
+		C80015FF86606FDCF5A08976C4E66284 /* LYRemoteResourceLoaderDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYRemoteResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		CA5557DEFB7FED7E9588D091965ACA30 /* NSURL+LYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+LYAdd.m"; sourceTree = "<group>"; };
 		CD60401A177DBF59CF89A832A1780AF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFC32E396870C847DD31FA0AD9611D47 /* Pods-LYRemotePlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYRemotePlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D61673D2496B7491244421DF282BCE37 /* LYRemotePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYRemotePlayer.h; sourceTree = "<group>"; };
 		D7F57E5A97BFCE4835254AB70EE921C1 /* Pods-LYRemotePlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LYRemotePlayer_Example.modulemap"; sourceTree = "<group>"; };
 		DB05B3F15A95522A0E1A47FDA2A7DC72 /* LYRemotePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LYRemotePlayer.modulemap; sourceTree = "<group>"; };
 		EE935AFDCA95B5659249E0EFDE55C902 /* LYRemotePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYRemotePlayer-umbrella.h"; sourceTree = "<group>"; };
@@ -71,11 +83,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55CE076AE8477293C283511A0BED0075 /* Frameworks */ = {
+		3135EBA91615E99D11919128F594A728 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B1C85643F697BFBB37815FDED1339E /* Foundation.framework in Frameworks */,
+				D99FEFBA432BCF0F65D38BE68DE910A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,27 +116,6 @@
 				B6CF68B5C0BB99CD2BA02C447BF4420C /* LYRemotePlayer */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5DF2FEC48D2AAD0122BD89252C629B88 /* LYRemotePlayer */ = {
-			isa = PBXGroup;
-			children = (
-				5EC673BFD78B8DAA8B3306632AAC8CF9 /* Classes */,
-			);
-			name = LYRemotePlayer;
-			path = LYRemotePlayer;
-			sourceTree = "<group>";
-		};
-		5EC673BFD78B8DAA8B3306632AAC8CF9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8976D012CFC7DADD26DA706A52F63C0B /* LYRemotePlayer.h */,
-				9AC664883A9EEA42A264EF66A6C58B71 /* LYRemotePlayer.m */,
-				C715F813781CDD51B22BAE6D65C9342A /* NSURL+LYAdd.h */,
-				40A5D627476C3F29BE74FF4B29A71237 /* NSURL+LYAdd.m */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		735914E66ED0E8CDB427F433212990A9 /* Targets Support Files */ = {
@@ -179,10 +170,19 @@
 			path = "Target Support Files/Pods-LYRemotePlayer_Tests";
 			sourceTree = "<group>";
 		};
+		AD70041CCA804FB282C3EAE6D31D19EE /* LYRemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BE8AFBF09560390C22F5FDF40510A496 /* Classes */,
+			);
+			name = LYRemotePlayer;
+			path = LYRemotePlayer;
+			sourceTree = "<group>";
+		};
 		B6CF68B5C0BB99CD2BA02C447BF4420C /* LYRemotePlayer */ = {
 			isa = PBXGroup;
 			children = (
-				5DF2FEC48D2AAD0122BD89252C629B88 /* LYRemotePlayer */,
+				AD70041CCA804FB282C3EAE6D31D19EE /* LYRemotePlayer */,
 				839B4FA8C7F82DF445CDA89945AD2236 /* Support Files */,
 			);
 			name = LYRemotePlayer;
@@ -195,6 +195,24 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE8AFBF09560390C22F5FDF40510A496 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				68339EF82D1C4FE75ABDBB4421861427 /* LYCacheFileTools.h */,
+				7D89ABC895B87082ED43D4CE085897A8 /* LYCacheFileTools.m */,
+				4C225F93C2363ABED7E18F48620D1C16 /* LYDownLoaderTools.h */,
+				8EDAFD1F38D78F725872CDC51C7D0A5E /* LYDownLoaderTools.m */,
+				D61673D2496B7491244421DF282BCE37 /* LYRemotePlayer.h */,
+				939EDA333B348A05C9004650E437D15F /* LYRemotePlayer.m */,
+				53B7B029B884D0F4F99429378A4D86F7 /* LYRemoteResourceLoaderDelegate.h */,
+				C80015FF86606FDCF5A08976C4E66284 /* LYRemoteResourceLoaderDelegate.m */,
+				A43B3769E0D906852DF960D1B7B987A5 /* NSURL+LYAdd.h */,
+				CA5557DEFB7FED7E9588D091965ACA30 /* NSURL+LYAdd.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		C81E1DE869AB571F0DDB3D9F3B2B9CF5 /* Products */ = {
@@ -236,21 +254,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		54FCAEDAD742F1814453F7E8D6AD09E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D53BF8F0A2F7EF865ADC83634D89A1E /* LYCacheFileTools.h in Headers */,
+				70E8A3E7ED111FE106E87FD04E5EDE5A /* LYDownLoaderTools.h in Headers */,
+				7AFE0ECBF02F15F7B9108F73FF7A9CCC /* LYRemotePlayer-umbrella.h in Headers */,
+				17ED508EE88013802CB39F3A8009408E /* LYRemotePlayer.h in Headers */,
+				8DABEA8235DD9D0633A26C5B15B666F9 /* LYRemoteResourceLoaderDelegate.h in Headers */,
+				30BFDA9774FF528CE2C1417399218BFE /* NSURL+LYAdd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5163FC2EB6F12C5043093429EF4A80C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A6C3DEDFB50CA905488B3F481A1A9A92 /* Pods-LYRemotePlayer_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8E9425FA7E5A0FBB41113246A9B9DD9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FE54E9FE569E7D0D697F580AD846FAD /* LYRemotePlayer-umbrella.h in Headers */,
-				B86E6B0752329000FF5305312BD4B4E7 /* LYRemotePlayer.h in Headers */,
-				D40BFAC2D40DFA3D20AB653A7C4DDAD7 /* NSURL+LYAdd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +286,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0803244CFBE3D2C12C6CCBBDABB3CBAF /* LYRemotePlayer */ = {
+		86C947F08AEA4FBEDD0BA6713BC055FE /* LYRemotePlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 856FFC2A5C92A157435BF89B98D0D8BC /* Build configuration list for PBXNativeTarget "LYRemotePlayer" */;
+			buildConfigurationList = 1FEFB049FDAC06380AEBDD3928022044 /* Build configuration list for PBXNativeTarget "LYRemotePlayer" */;
 			buildPhases = (
-				8FC45C260CF5B8E4769CF55B2086F7C8 /* Sources */,
-				55CE076AE8477293C283511A0BED0075 /* Frameworks */,
-				D8E9425FA7E5A0FBB41113246A9B9DD9 /* Headers */,
+				D254678ABCAB75A8FB34F3B01FEB2347 /* Sources */,
+				3135EBA91615E99D11919128F594A728 /* Frameworks */,
+				54FCAEDAD742F1814453F7E8D6AD09E3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -338,7 +359,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0803244CFBE3D2C12C6CCBBDABB3CBAF /* LYRemotePlayer */,
+				86C947F08AEA4FBEDD0BA6713BC055FE /* LYRemotePlayer */,
 				8CB66E2D008DFEB68F88695E63B663A1 /* Pods-LYRemotePlayer_Example */,
 				BA3CC652F39EBCE759C011454F99EBBE /* Pods-LYRemotePlayer_Tests */,
 			);
@@ -362,13 +383,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FC45C260CF5B8E4769CF55B2086F7C8 /* Sources */ = {
+		D254678ABCAB75A8FB34F3B01FEB2347 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6334214FF812A054FD6E322977D030F /* LYRemotePlayer-dummy.m in Sources */,
-				2FA0C5E8E278AE161A1CADABCB27320F /* LYRemotePlayer.m in Sources */,
-				D87286BE6AFBE44B59F3E3EDF84ACBA1 /* NSURL+LYAdd.m in Sources */,
+				901C5CA3FBDB9A3C29AEAC0F04FDEB6B /* LYCacheFileTools.m in Sources */,
+				5670AB185C1FE52D434002EC22152F02 /* LYDownLoaderTools.m in Sources */,
+				D0F09B1289773863CB52154FCF7E34DC /* LYRemotePlayer-dummy.m in Sources */,
+				4723C7848B1E444458272BCD9FD1D1CF /* LYRemotePlayer.m in Sources */,
+				45535A6EFBE6B64F90D64A40262F001C /* LYRemoteResourceLoaderDelegate.m in Sources */,
+				9F41B8E70698CE9C39832C26A1530C35 /* NSURL+LYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +402,7 @@
 		4DD4B8CACF016851133934269BBC95A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LYRemotePlayer;
-			target = 0803244CFBE3D2C12C6CCBBDABB3CBAF /* LYRemotePlayer */;
+			target = 86C947F08AEA4FBEDD0BA6713BC055FE /* LYRemotePlayer */;
 			targetProxy = 1F18FE7161643C8BB5129EBF32E3E8F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -540,7 +564,7 @@
 			};
 			name = Debug;
 		};
-		4D76B0F2B977228CC335C2074B6DBA21 /* Release */ = {
+		560C4B90C9A7122F53AA21C5874AB12D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC2B9C4688F0F136CFF2AA1B088538FE /* LYRemotePlayer.xcconfig */;
 			buildSettings = {
@@ -652,7 +676,7 @@
 			};
 			name = Release;
 		};
-		9E3CBC5B280BFD8745A05FF95172FDA4 /* Debug */ = {
+		7CB6A80AB3EA630D53FD0CB04AE5CAA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC2B9C4688F0F136CFF2AA1B088538FE /* LYRemotePlayer.xcconfig */;
 			buildSettings = {
@@ -696,6 +720,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1FEFB049FDAC06380AEBDD3928022044 /* Build configuration list for PBXNativeTarget "LYRemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB6A80AB3EA630D53FD0CB04AE5CAA6 /* Debug */,
+				560C4B90C9A7122F53AA21C5874AB12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -710,15 +743,6 @@
 			buildConfigurations = (
 				1BB86A2E1A07D6D39DB380C2FABAC49E /* Debug */,
 				183EFE668C394BCD2A65DD6187471E73 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		856FFC2A5C92A157435BF89B98D0D8BC /* Build configuration list for PBXNativeTarget "LYRemotePlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E3CBC5B280BFD8745A05FF95172FDA4 /* Debug */,
-				4D76B0F2B977228CC335C2074B6DBA21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

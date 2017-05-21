@@ -10,7 +10,10 @@
 #endif
 #endif
 
+#import "LYCacheFileTools.h"
+#import "LYDownLoaderTools.h"
 #import "LYRemotePlayer.h"
+#import "LYRemoteResourceLoaderDelegate.h"
 #import "NSURL+LYAdd.h"
 
 FOUNDATION_EXPORT double LYRemotePlayerVersionNumber;
