@@ -8,6 +8,7 @@
 
 #import "LYRemotePlayer.h"
 #import <AVFoundation/AVFoundation.h>
+#import "LYRemoteResourceLoaderDelegate.h"
 #import "NSURL+LYAdd.h"
 
 @interface LYRemotePlayer ()
@@ -17,6 +18,9 @@
 
 /** 是否是用户主动暂停 */
 @property (nonatomic, assign, getter=isUserPause) BOOL userPause;
+
+/** 资源加载代理 */
+@property (nonatomic, strong) LYRemoteResourceLoaderDelegate *resourceLoaderDelegate;
 
 @end
 
@@ -41,22 +45,27 @@ static LYRemotePlayer *_shareInstance;
 }
 
 #pragma mark - Public Method
-- (void)playWithURL:(NSURL *)url {
+- (void)playWithURL:(NSURL *)url isCache:(BOOL)isCache {
     NSURL *currentURL = ((AVURLAsset *) self.player.currentItem.asset).URL;
     if ([url isEqual:currentURL] || [[url streamingURL] isEqual:currentURL]) {
         [self resume];
         return;
     }
-    
-    _url = url;
-    
-    // 资源的请求
-    AVURLAsset *asset = [AVURLAsset assetWithURL:url];
-    
     // 当前音频资源的总时长
     if (self.player.currentItem) {
         [self removeObserver];
     }
+    
+    _url = url;
+    if (isCache) {
+        url = [url streamingURL];
+    }
+    
+    // 资源的请求
+    AVURLAsset *asset = [AVURLAsset assetWithURL:url];
+    
+    self.resourceLoaderDelegate = [LYRemoteResourceLoaderDelegate new];
+    [asset.resourceLoader setDelegate:self.resourceLoaderDelegate queue:dispatch_get_main_queue()];
     
     // 资源的组织
     AVPlayerItem *item = [AVPlayerItem playerItemWithAsset:asset];

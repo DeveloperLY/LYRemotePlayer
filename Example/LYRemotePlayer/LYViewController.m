@@ -53,7 +53,7 @@
 
 - (IBAction)play:(UIButton *)sender {
     NSURL *url = [NSURL URLWithString:@"http://audio.xmcdn.com/group23/M04/63/C5/wKgJNFg2qdLCziiYAGQxcTOSBEw402.m4a"];
-    [[LYRemotePlayer shareInstance] playWithURL:url];
+    [[LYRemotePlayer shareInstance] playWithURL:url isCache:YES];
 }
 
 

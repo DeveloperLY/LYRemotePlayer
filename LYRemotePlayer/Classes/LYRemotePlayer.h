@@ -67,8 +67,9 @@ typedef NS_ENUM(NSUInteger, LYRemotePlayerState) {
  根据URL地址播放远程的音频资源
 
  @param url URL地址
+ @param isCache 是否缓存
  */
-- (void)playWithURL:(NSURL *)url;
+- (void)playWithURL:(NSURL *)url isCache:(BOOL)isCache;
 
 
 /**
